@@ -41,28 +41,28 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GoogleMaps",
-            url: "https://github.com/vfn/GoogleMaps-SP/releases/download/5.0.0-M1/GoogleMaps.xcframework.zip",
-            checksum: "31da2e64335f4eaf8fe62237604753a252e4009a2b944f62ca58345190c513ee"
+            url: "https://github.com/mthole/GoogleMaps-SP/releases/download/5.2.0/GoogleMaps.xcframework.zip",
+            checksum: "2107f6797dbf398722e87c5e3e2c6c7b3acb95565979edd8943fc48a5ed1700b"
         ),
         .binaryTarget(
             name: "GoogleMapsBase",
-            url: "https://github.com/vfn/GoogleMaps-SP/releases/download/5.0.0-M1/GoogleMapsBase.xcframework.zip",
-            checksum: "1edd2007b14954c04e9adba68eb9ca668040cad337358c918abbba8bbf507c8b"
+            url: "https://github.com/mthole/GoogleMaps-SP/releases/download/5.2.0/GoogleMapsBase.xcframework.zip",
+            checksum: "71f1ddfc7a19e3599f325bbb2e0f70d5080738643d257db0cf6e71ae172d6be5"
         ),
         .binaryTarget(
             name: "GoogleMapsCore",
-            url: "https://github.com/vfn/GoogleMaps-SP/releases/download/5.0.0-M1/GoogleMapsCore.xcframework.zip",
-            checksum: "714b878ab65b6ac4b84a74c6bda6a424d3b4d5633167302ca9e38fed58290e42"
+            url: "https://github.com/mthole/GoogleMaps-SP/releases/download/5.2.0/GoogleMapsCore.xcframework.zip",
+            checksum: "b6c98a07c996e5a6665d88f8e5f7f67155b79f2903d7cad034fa28d55836a024"
         ),
         .binaryTarget(
             name: "GoogleMapsM4B",
-            url: "https://github.com/vfn/GoogleMaps-SP/releases/download/5.0.0-M1/GoogleMapsM4B.xcframework.zip",
-            checksum: "ce64b51af3c965fd8679fa6be89ecd36f221cb26d183b7110d544b504060c321"
+            url: "https://github.com/mthole/GoogleMaps-SP/releases/download/5.2.0/GoogleMapsM4B.xcframework.zip",
+            checksum: "71506d8135f1bbecd5a241519361d6365ea79309ba6969eda14acb992cd3d71d"
         ),
         .binaryTarget(
             name: "GooglePlaces",
-            url: "https://github.com/vfn/GoogleMaps-SP/releases/download/5.0.0-M1/GooglePlaces.xcframework.zip",
-            checksum: "e188774efd12f8fd9253aa1ef22e08687d2c5af2dda8ec147c17a84753bb9128"
+            url: "https://github.com/mthole/GoogleMaps-SP/releases/download/5.2.0/GooglePlaces.xcframework.zip",
+            checksum: "0125a14bd4abcb10fffa1a1c1484599cc2f67eb01c0d397c300c562f1c950a10"
         )
     ]
 )
