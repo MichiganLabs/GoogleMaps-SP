@@ -6,18 +6,21 @@ let package = Package(
     products: [
         .library(
             name: "GoogleMapsBase",
+            type: .static,
             targets: [
                 "GoogleMapsBase"
             ]
         ),
         .library(
             name: "GoogleMapsCore",
+            type: .static,
             targets: [
                 "GoogleMapsCore"
             ]
         ),
         .library(
             name: "GoogleMaps",
+            type: .static,
             targets: [
                 "GoogleMaps",
                 "GoogleMapsBase",
@@ -26,12 +29,14 @@ let package = Package(
         ),
         .library(
             name: "GoogleMapsM4B",
+            type: .static,
             targets: [
                 "GoogleMapsM4B"
             ]
         ),
         .library(
             name: "GooglePlaces",
+            type: .static,
             targets: [
                 "GooglePlaces",
                 "GoogleMapsBase"
